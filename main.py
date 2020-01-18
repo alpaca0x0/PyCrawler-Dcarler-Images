@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*
 import sys
 import signal # signal 安全退出
-from modules.board_list import main as ModBoardList # Modules Board List
-from modules.board_search import main as ModBoardSearch # Modules Board Search
+from modules.BoardList import main as ModBoardList # Modules Board List
+from modules.BoardSearch import main as ModBoardSearch # Modules Board Search
 from modules.dcl import main as DCL # Modules RUN DCL !
 from sty import fg, bg, ef, rs,Style, RgbFg # Font color
 
